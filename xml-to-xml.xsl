@@ -80,20 +80,32 @@
         <xsl:element name="additional-information">
             <xsl:value-of select="./additional-information"/>
         </xsl:element>
+        <xsl:element name="aggregate-value">
+            <xsl:value-of select="./price * ./in-stock"/>
+        </xsl:element>
     </xsl:template>
     <!-- Summary template -->
     <xsl:template name="summary">
         <xsl:element name="summary">
+            <xsl:call-template name="total-number-of-different-products"/>
             <xsl:call-template name="total-number-of-products"/>
             <xsl:call-template name="number-of-products-by-manufacturer"/>
             <xsl:call-template name="number-of-products-by-category"/>
-            <xsl:call-template name="prices-summary"/>
+            <xsl:call-template name="average-product-price"/>
+            <xsl:call-template name="average-product-rating"/>
+            <xsl:call-template name="products-with-free-delivery"/>
         </xsl:element>
     </xsl:template>
     <!-- Total number of products -->
+    <xsl:template name="total-number-of-different-products">
+        <xsl:element name="total-number-of-different-products">
+            <xsl:value-of select="count(//product)"/>
+        </xsl:element>
+    </xsl:template>
+    <!-- Total number of all products -->
     <xsl:template name="total-number-of-products">
         <xsl:element name="total-number-of-products">
-            <xsl:value-of select="count(//product)"/>
+            <xsl:value-of select="sum(//product/in-stock)"/>
         </xsl:element>
     </xsl:template>
     <!-- Number of products by manufacturer -->
@@ -135,31 +147,28 @@
             </xsl:for-each>
         </xsl:element>
     </xsl:template>
-    <!-- Prices summary -->
-    <xsl:template name="prices-summary">
-        <xsl:element name="prices-summary">
-            <xsl:call-template name="total-product-price"/>
-            <xsl:call-template name="average-product-price"/>
-            <xsl:call-template name="average-product-rating"/>
-        </xsl:element>
-    </xsl:template>
-    <!-- Total price of all products -->
-    <xsl:template name="total-product-price">
-        <xsl:element name="total-product-price">
-            <!-- TODO Change that to include in-stock -->
-            <xsl:value-of select="sum(//product/price)"/>
-        </xsl:element>
-    </xsl:template>
     <!-- Average price of a product -->
     <xsl:template name="average-product-price">
         <xsl:element name="average-product-price">
-            <xsl:value-of select="format-number(sum(//product/price) div count(//product),'#.##')"/>
+            <xsl:value-of select="format-number(sum(//product/price) div count(//product),'#.#')"/>
         </xsl:element>
     </xsl:template>
     <!-- Average product rating -->
     <xsl:template name="average-product-rating">
         <xsl:element name="average-product-rating">
             <xsl:value-of select="format-number(sum(//product/user-rating) div count(//product),'#.##')"/>
+        </xsl:element>
+    </xsl:template>
+    <!-- Products with free delivery -->
+    <xsl:template name="products-with-free-delivery">
+        <xsl:element name="products-with-free-delivery">
+            <xsl:for-each select="//product">
+                <xsl:if test="current()/free-delivery/@available = 'available'">
+                    <xsl:element name="product-name">
+                        <xsl:value-of select="current()/name" />
+                    </xsl:element>
+                </xsl:if>
+            </xsl:for-each>
         </xsl:element>
     </xsl:template>
     <!-- Document information template -->
@@ -176,9 +185,9 @@
             <!-- This does not work in a browser, because no browser supports XSLT 2.0. To perform the transform, use:
             https://www.freeformatter.com/xsl-transformer.html -->
             <xsl:element name="date-of-the-report">
-                <!-- <xsl:value-of 
+                <xsl:value-of 
       select="format-date(current-date(), 
-              '[FNn], the [D1o] of [MNn], [Y01]')"/> -->
+              '[FNn], the [D1o] of [MNn], [Y0001]')"/>
             </xsl:element>
         </xsl:element>
     </xsl:template>
