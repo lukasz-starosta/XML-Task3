@@ -21,7 +21,7 @@
             <in-stock>23</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>46000</aggregate-value>
+            <aggregate-value>46000pln</aggregate-value>
         </product>
         <product product-id="i51" category="Notebook" manufacturer="Apple">
             <name>Apple MacBook Pro</name>
@@ -42,7 +42,7 @@
             <in-stock>1305</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Version with US keyboard layout.</additional-information>
-            <aggregate-value>4.827195E6</aggregate-value>
+            <aggregate-value>4827195pln</aggregate-value>
         </product>
         <product product-id="i52" category="Smartphone" manufacturer="Samsung">
             <name>Samsung Galaxy S9 Plus</name>
@@ -63,7 +63,7 @@
             <in-stock>784</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Free wireless charger with every order.</additional-information>
-            <aggregate-value>2.586416E6</aggregate-value>
+            <aggregate-value>2586416pln</aggregate-value>
         </product>
         <product product-id="i53" category="Smartphone" manufacturer="Apple">
             <name>Apple IPhone X</name>
@@ -84,7 +84,7 @@
             <in-stock>2154</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>8.385522E6</aggregate-value>
+            <aggregate-value>8385522pln</aggregate-value>
         </product>
         <product product-id="i54" category="Notebook" manufacturer="Dell">
             <name>Dell Inspiron 5379</name>
@@ -105,7 +105,7 @@
             <in-stock>521</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Version with touchscreen.</additional-information>
-            <aggregate-value>1.697939E6</aggregate-value>
+            <aggregate-value>1697939pln</aggregate-value>
         </product>
         <product product-id="i55" category="Keyboard" manufacturer="Razer">
             <name>Razer Blackwidow Chroma</name>
@@ -126,7 +126,7 @@
             <in-stock>325</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>178425</aggregate-value>
+            <aggregate-value>178425pln</aggregate-value>
         </product>
         <product product-id="i56" category="Monitor" manufacturer="Samsung">
             <name>Samsung Curved LCD24IPSFHD</name>
@@ -147,7 +147,7 @@
             <in-stock>134</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information>Ex-display product.</additional-information>
-            <aggregate-value>120466</aggregate-value>
+            <aggregate-value>120466pln</aggregate-value>
         </product>
         <product product-id="i57" category="TV" manufacturer="Samsung">
             <name>Samsung QLED UE554K</name>
@@ -168,7 +168,7 @@
             <in-stock>243</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>HDR capable.</additional-information>
-            <aggregate-value>1.384614E6</aggregate-value>
+            <aggregate-value>1384614pln</aggregate-value>
         </product>
         <product product-id="i58" category="Monitor" manufacturer="Asus">
             <name>Asus VZ27VQ</name>
@@ -189,7 +189,7 @@
             <in-stock>57</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information>Stand with height and width adjustment.</additional-information>
-            <aggregate-value>47253</aggregate-value>
+            <aggregate-value>47253pln</aggregate-value>
         </product>
         <product product-id="i59" category="Mouse" manufacturer="Razer">
             <name>Razer Mamba Chroma</name>
@@ -210,7 +210,7 @@
             <in-stock>34</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>9486</aggregate-value>
+            <aggregate-value>9486pln</aggregate-value>
         </product>
         <product product-id="i60" category="Keyboard" manufacturer="Asus">
             <name>Asus ROG Strix Flare</name>
@@ -230,7 +230,7 @@
             <in-stock>249</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>89391</aggregate-value>
+            <aggregate-value>89391pln</aggregate-value>
         </product>
         <product product-id="i61" category="Smartphone" manufacturer="OnePlus">
             <name>OnePlus 6</name>
@@ -251,7 +251,7 @@
             <in-stock>721</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Car charger included with every order.</additional-information>
-            <aggregate-value>1.7304E6</aggregate-value>
+            <aggregate-value>1730400pln</aggregate-value>
         </product>
         <product product-id="s62" category="Smartphone" manufacturer="OnePlus">
             <name>Oneplus 3</name>
@@ -272,7 +272,7 @@
             <in-stock>24</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information>Flagship killer of the year 2016.</additional-information>
-            <aggregate-value>43176</aggregate-value>
+            <aggregate-value>43176pln</aggregate-value>
         </product>
         <product product-id="i63" category="Accesory" manufacturer="Apple">
             <name>Leather Case for Iphone X</name>
@@ -292,7 +292,7 @@
             <in-stock>113</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>21470</aggregate-value>
+            <aggregate-value>21470pln</aggregate-value>
         </product>
         <product product-id="i64" category="Accesory" manufacturer="Acer">
             <name>Materil Laptop Pouch</name>
@@ -312,7 +312,7 @@
             <in-stock>34</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>2686</aggregate-value>
+            <aggregate-value>2686pln</aggregate-value>
         </product>
         <product product-id="i65" category="Notebook" manufacturer="Dell">
             <name>Dell XPS 15</name>
@@ -333,7 +333,7 @@
             <in-stock>128</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>1.011072E6</aggregate-value>
+            <aggregate-value>1011072pln</aggregate-value>
         </product>
         <product product-id="i66" category="Mouse" manufacturer="Asus">
             <name>Asus ROG Strix Impact</name>
@@ -353,7 +353,7 @@
             <in-stock>78</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>17862</aggregate-value>
+            <aggregate-value>17862pln</aggregate-value>
         </product>
         <product product-id="i67" category="TV" manufacturer="Samsung">
             <name>Samsung UE49NU7ST4K</name>
@@ -374,7 +374,7 @@
             <in-stock>12</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>29268</aggregate-value>
+            <aggregate-value>29268pln</aggregate-value>
         </product>
         <product product-id="i68" category="Smartphone" manufacturer="Razer">
             <name>Razer Phone 2</name>
@@ -395,7 +395,7 @@
             <in-stock>241</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>674559</aggregate-value>
+            <aggregate-value>674559pln</aggregate-value>
         </product>
         <product product-id="i69" category="Accesory" manufacturer="Razer">
             <name>Razer Mouse Bungee</name>
@@ -415,7 +415,7 @@
             <in-stock>132</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>13200</aggregate-value>
+            <aggregate-value>13200pln</aggregate-value>
         </product>
         <product product-id="i70" category="Monitor" manufacturer="Acer">
             <name>Acer Nitro VG24IPS144HZ</name>
@@ -436,7 +436,7 @@
             <in-stock>125</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Free cleaning cloth with every order.</additional-information>
-            <aggregate-value>99875</aggregate-value>
+            <aggregate-value>99875pln</aggregate-value>
         </product>
         <product product-id="i71" category="Notebook" manufacturer="Asus">
             <name>Asus Swift 5 Ferrari Edition</name>
@@ -457,30 +457,30 @@
             <in-stock>12</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Limited Edition product.</additional-information>
-            <aggregate-value>77988</aggregate-value>
+            <aggregate-value>77988pln</aggregate-value>
         </product>
     </products-list>
     <summary>
         <total-number-of-different-products>22</total-number-of-different-products>
         <total-number-of-products>7449</total-number-of-products>
         <number-of-products-by-manufacturer>
-            <number-of-acer-products>3</number-of-acer-products>
-            <number-of-apple-products>3</number-of-apple-products>
-            <number-of-asus-products>4</number-of-asus-products>
-            <number-of-dell-products>2</number-of-dell-products>
-            <number-of-oneplus-products>2</number-of-oneplus-products>
-            <number-of-razer-products>4</number-of-razer-products>
-            <number-of-samsung-products>4</number-of-samsung-products>
+            <number-of-acer-products manufacturer-name="Acer">3</number-of-acer-products>
+            <number-of-apple-products manufacturer-name="Apple">3</number-of-apple-products>
+            <number-of-asus-products manufacturer-name="Asus">4</number-of-asus-products>
+            <number-of-dell-products manufacturer-name="Dell">2</number-of-dell-products>
+            <number-of-oneplus-products manufacturer-name="OnePlus">2</number-of-oneplus-products>
+            <number-of-razer-products manufacturer-name="Razer">4</number-of-razer-products>
+            <number-of-samsung-products manufacturer-name="Samsung">4</number-of-samsung-products>
         </number-of-products-by-manufacturer>
         <number-of-products-by-category>
-            <number-of-notebooks>5</number-of-notebooks>
-            <number-of-smartphones>5</number-of-smartphones>
-            <number-of-monitors>3</number-of-monitors>
-            <number-of-accessories>3</number-of-accessories>
-            <number-of-tvs>2</number-of-tvs>
-            <number-of-keyboards>2</number-of-keyboards>
-            <number-of-mice>2</number-of-mice>
-            <number-of-hoverboards>0</number-of-hoverboards>
+            <number-of-notebooks category-name="Notebook">5</number-of-notebooks>
+            <number-of-smartphones category-name="Smartphone">5</number-of-smartphones>
+            <number-of-monitors category-name="Monitor">3</number-of-monitors>
+            <number-of-accessories category-name="Accesory">3</number-of-accessories>
+            <number-of-tvs category-name="TV">2</number-of-tvs>
+            <number-of-keyboards category-name="Keyboard">2</number-of-keyboards>
+            <number-of-mice category-name="Mouse">2</number-of-mice>
+            <number-of-hoverboards category-name="Hoverboard">0</number-of-hoverboards>
         </number-of-products-by-category>
         <average-product-price>2272.5</average-product-price>
         <average-product-rating>4.24</average-product-rating>

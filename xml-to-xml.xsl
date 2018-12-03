@@ -81,7 +81,8 @@
             <xsl:value-of select="./additional-information"/>
         </xsl:element>
         <xsl:element name="aggregate-value">
-            <xsl:value-of select="./price * ./in-stock"/>
+            <xsl:value-of select="format-number(./price * ./in-stock, '#')"/>
+            <xsl:value-of select="./price/@currency"/>
         </xsl:element>
     </xsl:template>
     <!-- Summary template -->
@@ -115,6 +116,9 @@
                 <!-- Ascending sort (from a to z) -->
                 <xsl:sort select="@manufacturer-id"/>
                 <xsl:element name="number-of-{current()/@manufacturer-id}-products">
+                    <xsl:attribute name="manufacturer-name">
+                        <xsl:value-of select="//manufacturer[@manufacturer-id = current()/@manufacturer-id]/manufacturer-name"/>
+                    </xsl:attribute>
                     <xsl:value-of select="count(//product[@manufacturer-id = current()/@manufacturer-id])"/>
                 </xsl:element>
             </xsl:for-each>
@@ -130,16 +134,25 @@
                 <xsl:choose>
                     <xsl:when test="current()/@category-id = 'accessory'">
                         <xsl:element name="number-of-accessories">
+                            <xsl:attribute name="category-name">
+                                <xsl:value-of select="//product-type[@category-id = current()/@category-id]"/>
+                            </xsl:attribute>
                             <xsl:value-of select="count(//product[@category-id = current()/@category-id])"/>
                         </xsl:element>
                     </xsl:when>
                     <xsl:when test="current()/@category-id = 'mouse'">
                         <xsl:element name="number-of-mice">
+                            <xsl:attribute name="category-name">
+                                <xsl:value-of select="//product-type[@category-id = current()/@category-id]"/>
+                            </xsl:attribute>
                             <xsl:value-of select="count(//product[@category-id = current()/@category-id])"/>
                         </xsl:element>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:element name="number-of-{current()/@category-id}s">
+                            <xsl:attribute name="category-name">
+                                <xsl:value-of select="//product-type[@category-id = current()/@category-id]"/>
+                            </xsl:attribute>
                             <xsl:value-of select="count(//product[@category-id = current()/@category-id])"/>
                         </xsl:element>
                     </xsl:otherwise>
