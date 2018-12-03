@@ -1,7 +1,15 @@
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="html" encoding="utf-8"
+doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
     <xsl:template match="electronics-shop">
-        <html>
+        <html
+            xmlns="http://www.w3.org/1999/xhtml"
+            lang="en">
+            <head>
+            <title>XML Task 3 217862 217846</title>
+            </head>
             <body style="font-family: sans-serif;">
                 <section>
                     <h2>Authors</h2>
@@ -98,6 +106,7 @@
                                         <li>
                                             <em>
                                                 <xsl:value-of select="current()/@manufacturer-name"/> -
+                                            
                                             </em>
                                             <xsl:value-of select="."/>
                                         </li>
@@ -113,6 +122,7 @@
                                         <li>
                                             <em>
                                                 <xsl:value-of select="current()/@category-name"/> -
+                                            
                                             </em>
                                             <xsl:value-of select="."/>
                                         </li>
