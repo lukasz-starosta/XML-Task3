@@ -1,12 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="xhtml" encoding="utf-8"
-doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
+    <xsl:output method="xml" encoding="utf-8"
+doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+/>
     <xsl:template match="electronics-shop">
         <html
             xmlns="http://www.w3.org/1999/xhtml"
-            lang="en">
+            lang="en"
+            xml:lang="en">
             <head>
                 <title>XML Task 3 217862 217846</title>
             </head>
