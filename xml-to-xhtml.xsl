@@ -1,6 +1,6 @@
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" encoding="utf-8"
+    <xsl:output method="xhtml" encoding="utf-8"
 doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
     <xsl:template match="electronics-shop">
@@ -8,10 +8,10 @@ doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
             xmlns="http://www.w3.org/1999/xhtml"
             lang="en">
             <head>
-            <title>XML Task 3 217862 217846</title>
+                <title>XML Task 3 217862 217846</title>
             </head>
             <body style="font-family: sans-serif;">
-                <section>
+                <div>
                     <h2>Authors</h2>
                     <ul>
                         <xsl:for-each select="document-information/authors/author">
@@ -20,12 +20,12 @@ doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
                             </li>
                         </xsl:for-each>
                     </ul>
+                    <h4>Date of the report:</h4>
                     <p>
-                        <h4>Date of the report:</h4>
                         <xsl:value-of select="document-information/date-of-the-report" />
                     </p>
-                </section>
-                <section>
+                </div>
+                <div>
                     <h2>Products</h2>
                     <table border="1">
                         <thead style="background: lightblue">
@@ -82,8 +82,8 @@ doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
                             </xsl:for-each>
                         </tbody>
                     </table>
-                </section>
-                <section>
+                </div>
+                <div>
                     <h2>Supporting XML Summary</h2>
                     <ul>
                         <li>
@@ -99,35 +99,27 @@ doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
                             </p>
                         </li>
                         <li>
+                            <i>Number of products by manufacturer:</i>
                             <p>
-                                <i>Number of products by manufacturer:</i>
-                                <ul>
-                                    <xsl:for-each select="summary/number-of-products-by-manufacturer/*">
-                                        <li>
-                                            <em>
-                                                <xsl:value-of select="current()/@manufacturer-name"/> -
-                                            
-                                            </em>
-                                            <xsl:value-of select="."/>
-                                        </li>
-                                    </xsl:for-each>
-                                </ul>
+                                <xsl:for-each select="summary/number-of-products-by-manufacturer/*">
+                                    <em>
+                                        <xsl:value-of select="current()/@manufacturer-name"/> -
+                                    </em>
+                                    <xsl:value-of select="."/>
+                                    <br/>
+                                </xsl:for-each>
                             </p>
                         </li>
                         <li>
+                            <i>Number of products by category:</i>
                             <p>
-                                <i>Number of products by category:</i>
-                                <ul>
-                                    <xsl:for-each select="summary/number-of-products-by-category/*">
-                                        <li>
-                                            <em>
-                                                <xsl:value-of select="current()/@category-name"/> -
-                                            
-                                            </em>
-                                            <xsl:value-of select="."/>
-                                        </li>
-                                    </xsl:for-each>
-                                </ul>
+                                <xsl:for-each select="summary/number-of-products-by-category/*">
+                                    <em>
+                                        <xsl:value-of select="current()/@category-name"/> -
+                                    </em>
+                                    <xsl:value-of select="."/>
+                                    <br/>
+                                </xsl:for-each>
                             </p>
                         </li>
                         <li>
@@ -143,10 +135,10 @@ doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
                             </p>
                         </li>
                         <li>
+                            <h4>
+                                <i>Products with free delivery:</i>
+                            </h4>
                             <p>
-                                <h4>
-                                    <i>Products with free delivery:</i>
-                                </h4>
                                 <xsl:for-each select="summary/products-with-free-delivery/*">
                                     <strong style="color: lightgreen">
                                         <xsl:value-of select="."/>
@@ -156,7 +148,7 @@ doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
                             </p>
                         </li>
                     </ul>
-                </section>
+                </div>
             </body>
         </html>
     </xsl:template>
