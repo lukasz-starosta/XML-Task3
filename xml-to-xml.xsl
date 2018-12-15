@@ -43,8 +43,10 @@
             <xsl:value-of select="./name"/>
         </xsl:element>
         <xsl:element name="price">
+            <xsl:attribute name="currency">
+                <xsl:value-of select="./price/@currency"/>
+            </xsl:attribute>
             <xsl:value-of select="./price"/>
-            <xsl:value-of select="./price/@currency"/>
         </xsl:element>
         <xsl:element name="on-sale">
             <xsl:value-of select="./price/@on-sale"/>
@@ -57,8 +59,10 @@
             </xsl:for-each>
         </xsl:element>
         <xsl:element name="warranty">
+            <xsl:attribute name="time-unit">
+                <xsl:value-of select="./warranty/@*" />
+            </xsl:attribute>
             <xsl:value-of select="./warranty"/>
-            <xsl:value-of select="./warranty/@*" />
         </xsl:element>
         <xsl:element name="specification">
             <xsl:for-each select="./specification/*">
@@ -81,8 +85,10 @@
             <xsl:value-of select="./additional-information"/>
         </xsl:element>
         <xsl:element name="aggregate-value">
+            <xsl:attribute name="currency">
+                <xsl:text>pln</xsl:text>
+            </xsl:attribute>
             <xsl:value-of select="format-number(./price * ./in-stock, '#')"/>
-            <xsl:value-of select="./price/@currency"/>
         </xsl:element>
     </xsl:template>
     <!-- Summary template -->

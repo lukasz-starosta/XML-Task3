@@ -4,14 +4,14 @@
     <products-list>
         <product product-id="i50" category="Notebook" manufacturer="Acer">
             <name>Acer Swift 3</name>
-            <price>2000pln</price>
+            <price currency="pln">2000</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>23</day>
                 <month>1</month>
                 <year>2017</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>1200g</weight>
                 <display-size>13.3inch</display-size>
@@ -21,18 +21,18 @@
             <in-stock>23</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>46000pln</aggregate-value>
+            <aggregate-value currency="pln">46000</aggregate-value>
         </product>
         <product product-id="i51" category="Notebook" manufacturer="Apple">
             <name>Apple MacBook Pro</name>
-            <price>3699pln</price>
+            <price currency="pln">3699</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>3</day>
                 <month>4</month>
                 <year>2018</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>1050g</weight>
                 <display-size>15inch</display-size>
@@ -42,18 +42,18 @@
             <in-stock>1305</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Version with US keyboard layout.</additional-information>
-            <aggregate-value>4827195pln</aggregate-value>
+            <aggregate-value currency="pln">4827195</aggregate-value>
         </product>
         <product product-id="i52" category="Smartphone" manufacturer="Samsung">
             <name>Samsung Galaxy S9 Plus</name>
-            <price>3299pln</price>
+            <price currency="pln">3299</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>12</day>
                 <month>11</month>
                 <year>2018</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>650g</weight>
                 <display-size>6.7inch</display-size>
@@ -63,18 +63,18 @@
             <in-stock>784</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Free wireless charger with every order.</additional-information>
-            <aggregate-value>2586416pln</aggregate-value>
+            <aggregate-value currency="pln">2586416</aggregate-value>
         </product>
         <product product-id="i53" category="Smartphone" manufacturer="Apple">
             <name>Apple IPhone X</name>
-            <price>3893pln</price>
+            <price currency="pln">3893</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>14</day>
                 <month>6</month>
                 <year>2018</year>
             </release-date>
-            <warranty>3years</warranty>
+            <warranty time-unit="years">3</warranty>
             <specification>
                 <weight>740g</weight>
                 <display-size>5.8inch</display-size>
@@ -84,18 +84,18 @@
             <in-stock>2154</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>8385522pln</aggregate-value>
+            <aggregate-value currency="pln">8385522</aggregate-value>
         </product>
         <product product-id="i54" category="Notebook" manufacturer="Dell">
             <name>Dell Inspiron 5379</name>
-            <price>3259pln</price>
+            <price currency="pln">3259</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>2</day>
                 <month>3</month>
                 <year>2017</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>1230g</weight>
                 <display-size>13.3inch</display-size>
@@ -105,18 +105,18 @@
             <in-stock>521</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Version with touchscreen.</additional-information>
-            <aggregate-value>1697939pln</aggregate-value>
+            <aggregate-value currency="pln">1697939</aggregate-value>
         </product>
         <product product-id="i55" category="Keyboard" manufacturer="Razer">
             <name>Razer Blackwidow Chroma</name>
-            <price>549pln</price>
+            <price currency="pln">549</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>12</day>
                 <month>10</month>
                 <year>2016</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>970g</weight>
                 <color>Black</color>
@@ -126,18 +126,18 @@
             <in-stock>325</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>178425pln</aggregate-value>
+            <aggregate-value currency="pln">178425</aggregate-value>
         </product>
         <product product-id="i56" category="Monitor" manufacturer="Samsung">
             <name>Samsung Curved LCD24IPSFHD</name>
-            <price>899pln</price>
+            <price currency="pln">899</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>22</day>
                 <month>7</month>
                 <year>2016</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>1321g</weight>
                 <display-size>23.4inch</display-size>
@@ -147,18 +147,18 @@
             <in-stock>134</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information>Ex-display product.</additional-information>
-            <aggregate-value>120466pln</aggregate-value>
+            <aggregate-value currency="pln">120466</aggregate-value>
         </product>
         <product product-id="i57" category="TV" manufacturer="Samsung">
             <name>Samsung QLED UE554K</name>
-            <price>5698pln</price>
+            <price currency="pln">5698</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>3</day>
                 <month>2</month>
                 <year>2016</year>
             </release-date>
-            <warranty>3years</warranty>
+            <warranty time-unit="years">3</warranty>
             <specification>
                 <weight>3500g</weight>
                 <display-size>55inch</display-size>
@@ -168,18 +168,18 @@
             <in-stock>243</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>HDR capable.</additional-information>
-            <aggregate-value>1384614pln</aggregate-value>
+            <aggregate-value currency="pln">1384614</aggregate-value>
         </product>
         <product product-id="i58" category="Monitor" manufacturer="Asus">
             <name>Asus VZ27VQ</name>
-            <price>829pln</price>
+            <price currency="pln">829</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>1</day>
                 <month>8</month>
                 <year>2015</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>2000g</weight>
                 <display-size>27inch</display-size>
@@ -189,18 +189,18 @@
             <in-stock>57</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information>Stand with height and width adjustment.</additional-information>
-            <aggregate-value>47253pln</aggregate-value>
+            <aggregate-value currency="pln">47253</aggregate-value>
         </product>
         <product product-id="i59" category="Mouse" manufacturer="Razer">
             <name>Razer Mamba Chroma</name>
-            <price>279pln</price>
+            <price currency="pln">279</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>24</day>
                 <month>10</month>
                 <year>2013</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>98g</weight>
                 <color>Black</color>
@@ -210,18 +210,18 @@
             <in-stock>34</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>9486pln</aggregate-value>
+            <aggregate-value currency="pln">9486</aggregate-value>
         </product>
         <product product-id="i60" category="Keyboard" manufacturer="Asus">
             <name>Asus ROG Strix Flare</name>
-            <price>359pln</price>
+            <price currency="pln">359</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>5</day>
                 <month>12</month>
                 <year>2016</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>1221g</weight>
                 <color>White</color>
@@ -230,18 +230,18 @@
             <in-stock>249</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>89391pln</aggregate-value>
+            <aggregate-value currency="pln">89391</aggregate-value>
         </product>
         <product product-id="i61" category="Smartphone" manufacturer="OnePlus">
             <name>OnePlus 6</name>
-            <price>2400pln</price>
+            <price currency="pln">2400</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>2</day>
                 <month>6</month>
                 <year>2018</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>800g</weight>
                 <display-size>6.3inch</display-size>
@@ -251,18 +251,18 @@
             <in-stock>721</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Car charger included with every order.</additional-information>
-            <aggregate-value>1730400pln</aggregate-value>
+            <aggregate-value currency="pln">1730400</aggregate-value>
         </product>
         <product product-id="s62" category="Smartphone" manufacturer="OnePlus">
             <name>Oneplus 3</name>
-            <price>1799pln</price>
+            <price currency="pln">1799</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>11</day>
                 <month>7</month>
                 <year>2016</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>821g</weight>
                 <display-size>5.5inch</display-size>
@@ -272,18 +272,18 @@
             <in-stock>24</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information>Flagship killer of the year 2016.</additional-information>
-            <aggregate-value>43176pln</aggregate-value>
+            <aggregate-value currency="pln">43176</aggregate-value>
         </product>
         <product product-id="i63" category="Accesory" manufacturer="Apple">
             <name>Leather Case for Iphone X</name>
-            <price>190pln</price>
+            <price currency="pln">190</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>23</day>
                 <month>11</month>
                 <year>2018</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>95g</weight>
                 <color>Brown</color>
@@ -292,18 +292,18 @@
             <in-stock>113</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>21470pln</aggregate-value>
+            <aggregate-value currency="pln">21470</aggregate-value>
         </product>
         <product product-id="i64" category="Accesory" manufacturer="Acer">
             <name>Materil Laptop Pouch</name>
-            <price>79pln</price>
+            <price currency="pln">79</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>1</day>
                 <month>3</month>
                 <year>2014</year>
             </release-date>
-            <warranty>5years</warranty>
+            <warranty time-unit="years">5</warranty>
             <specification>
                 <weight>30g</weight>
                 <color>Black</color>
@@ -312,18 +312,18 @@
             <in-stock>34</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>2686pln</aggregate-value>
+            <aggregate-value currency="pln">2686</aggregate-value>
         </product>
         <product product-id="i65" category="Notebook" manufacturer="Dell">
             <name>Dell XPS 15</name>
-            <price>7899pln</price>
+            <price currency="pln">7899</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>3</day>
                 <month>4</month>
                 <year>2018</year>
             </release-date>
-            <warranty>4years</warranty>
+            <warranty time-unit="years">4</warranty>
             <specification>
                 <weight>1500g</weight>
                 <display-size>15inch</display-size>
@@ -333,18 +333,18 @@
             <in-stock>128</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>1011072pln</aggregate-value>
+            <aggregate-value currency="pln">1011072</aggregate-value>
         </product>
         <product product-id="i66" category="Mouse" manufacturer="Asus">
             <name>Asus ROG Strix Impact</name>
-            <price>229pln</price>
+            <price currency="pln">229</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>2</day>
                 <month>6</month>
                 <year>2013</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>87g</weight>
                 <color>Black</color>
@@ -353,18 +353,18 @@
             <in-stock>78</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>17862pln</aggregate-value>
+            <aggregate-value currency="pln">17862</aggregate-value>
         </product>
         <product product-id="i67" category="TV" manufacturer="Samsung">
             <name>Samsung UE49NU7ST4K</name>
-            <price>2439pln</price>
+            <price currency="pln">2439</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>18</day>
                 <month>9</month>
                 <year>2015</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>3200g</weight>
                 <display-size>49inch</display-size>
@@ -374,18 +374,18 @@
             <in-stock>12</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>29268pln</aggregate-value>
+            <aggregate-value currency="pln">29268</aggregate-value>
         </product>
         <product product-id="i68" category="Smartphone" manufacturer="Razer">
             <name>Razer Phone 2</name>
-            <price>2799pln</price>
+            <price currency="pln">2799</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>3</day>
                 <month>4</month>
                 <year>2018</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>650g</weight>
                 <display-size>5.5inch</display-size>
@@ -395,18 +395,18 @@
             <in-stock>241</in-stock>
             <free-delivery>non-available</free-delivery>
             <additional-information/>
-            <aggregate-value>674559pln</aggregate-value>
+            <aggregate-value currency="pln">674559</aggregate-value>
         </product>
         <product product-id="i69" category="Accesory" manufacturer="Razer">
             <name>Razer Mouse Bungee</name>
-            <price>100pln</price>
+            <price currency="pln">100</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>3</day>
                 <month>4</month>
                 <year>2017</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>50g</weight>
                 <color>Black-Green</color>
@@ -415,18 +415,18 @@
             <in-stock>132</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information/>
-            <aggregate-value>13200pln</aggregate-value>
+            <aggregate-value currency="pln">13200</aggregate-value>
         </product>
         <product product-id="i70" category="Monitor" manufacturer="Acer">
             <name>Acer Nitro VG24IPS144HZ</name>
-            <price>799pln</price>
+            <price currency="pln">799</price>
             <on-sale>yes</on-sale>
             <release-date>
                 <day>4</day>
                 <month>12</month>
                 <year>2017</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>2100g</weight>
                 <display-size>24inch</display-size>
@@ -436,18 +436,18 @@
             <in-stock>125</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Free cleaning cloth with every order.</additional-information>
-            <aggregate-value>99875pln</aggregate-value>
+            <aggregate-value currency="pln">99875</aggregate-value>
         </product>
         <product product-id="i71" category="Notebook" manufacturer="Asus">
             <name>Asus Swift 5 Ferrari Edition</name>
-            <price>6499pln</price>
+            <price currency="pln">6499</price>
             <on-sale>no</on-sale>
             <release-date>
                 <day>2</day>
                 <month>4</month>
                 <year>2018</year>
             </release-date>
-            <warranty>2years</warranty>
+            <warranty time-unit="years">2</warranty>
             <specification>
                 <weight>1050g</weight>
                 <display-size>15inch</display-size>
@@ -457,7 +457,7 @@
             <in-stock>12</in-stock>
             <free-delivery>available</free-delivery>
             <additional-information>Limited Edition product.</additional-information>
-            <aggregate-value>77988pln</aggregate-value>
+            <aggregate-value currency="pln">77988</aggregate-value>
         </product>
     </products-list>
     <summary>
@@ -514,6 +514,6 @@
                 217846
         </author>
         </authors>
-        <date-of-the-report>Monday, the 3rd of December, 2018</date-of-the-report>
+        <date-of-the-report>Saturday, the 15th of December, 2018</date-of-the-report>
     </document-information>
 </electronics-shop>
